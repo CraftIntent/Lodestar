@@ -6,7 +6,7 @@
 
 ---
 
-Lodestar turns any AI project folder into a mastery-based homeschool tutor. A parent fills in one profile; Lodestar generates lessons the parent delivers aloud, tracks each skill by evidence rather than by calendar, and flags gaps and forgotten material before they compound. Every lesson answers to a Student's Bill of Rights. The teacher stays in the loop; mastery stays at the gate.
+Lodestar turns any AI project folder into a mastery-based homeschool tutor — with the emphasis on *tool*, not tutor-that-runs-itself. A parent fills in one profile; Lodestar drafts Socratic lessons for the adult to teach, tracks each skill by evidence rather than by calendar, and flags gaps and forgotten material before they compound. It writes the lesson; you do the teaching. Every lesson answers to a Student's Bill of Rights. The teacher stays in the loop; mastery stays at the gate.
 
 It runs today inside a Claude Project — no code, no accounts, no cost beyond an AI subscription. A standalone native app is on the roadmap.
 
@@ -14,7 +14,7 @@ It runs today inside a Claude Project — no code, no accounts, no cost beyond a
 
 Three commitments hold the whole design together. They are not slogans; each one is a rule the system obeys.
 
-**AI is the tool.** The AI drafts lessons and keeps the record. It never stands in for a person. Software can generate and drill; it does not teach. When a system hands a child to a screen and calls it instruction, it has confused the tool for the teacher — Lodestar refuses that trade.
+**AI is the tool.** The AI drafts lessons and keeps the record. That is where its job ends. It is a tool, not a passive replacement for a teacher — a lesson plan, not a substitute teacher. It can generate and it can drill, but it cannot teach, because teaching is the work of explaining, watching, and responding to a real child in real time. Lodestar is built to hand you a strong starting point and then get out of the way so you can do that work. A tool that lets you skip the teaching isn't the tool we're building.
 
 **The adult is the teacher.** Every lesson is written for a human to deliver aloud, in their own voice, anchored to the life the child actually lives. The adult explains the *why*, reads the child in real time, and judges whether something was truly learned. That judgment is the signal the whole system turns on. The teacher is in the loop, not at the end of it.
 
@@ -29,7 +29,7 @@ Every lesson Lodestar builds, and every progress call it makes, answers to these
 3. **Be met at their actual level in each subject.** Advanced in reading and still building in math on the same day is normal — each subject on its own.
 4. **Never advance with gaps.** Reading and math compound; a skipped foundation becomes a permanent hole. Don't build on a cracked footing.
 5. **Never be bored.** If they already know it, don't drill it. Boredom is a signal to move on, not a discipline problem in the child.
-6. **Learn from a human, not a screen.** The adult teaches; software only ever drills. Every lesson carries the *why*, not just the *what*.
+6. **Be taught by a person, not processed by a tool.** The AI drafts and drills; the teaching — the explaining, the reading of the child — is the adult's work and can't be handed off. Every lesson carries the *why*, not just the *what*.
 7. **Be given the focus and motivation they can't yet supply alone.** Scaffold attention and momentum; don't assume the child arrives with them.
 8. **Fail safely and try again.** Unlimited attempts, no penalty. A miss reroutes the lesson — it never becomes a mark on a record.
 9. **Work in the zone just past easy.** Hard enough to grow, reachable enough to succeed — never trivial, never crushing.
@@ -41,7 +41,7 @@ The whole system is a short loop:
 
 1. **Set up once.** Fill in the student profile and paste it into your AI project's instructions.
 2. **Request a lesson** in plain words — *"a lesson on bees,"* *"fractions using tonight's pizza."*
-3. **Deliver it aloud,** screen-free. Do the activity, ask the questions.
+3. **Teach it.** Deliver the lesson, do the activity, ask the questions — you are the instructor, not a play button.
 4. **Say how it went** in your own words. Lodestar updates the skill list from what the child actually did.
 5. **Check progress** every week or two. Lodestar flags weak subjects, stalled skills, and anything taught but never revisited — then recommends what's next.
 
@@ -52,13 +52,13 @@ A skill is only marked *Mastered* when the child uses it again in a *later* less
 | File | What it is |
 |---|---|
 | `PARENT_INSTRUCTIONS.md` | Plain setup-and-use guide for the adult. Start here. |
-| `CLAUDE_PROJECT_INSTRUCTIONS.md` | The AI's instructions, with fill-in fields. Paste into your project's custom instructions. |
+| `AI_INSTRUCTIONS.md` | The AI's instructions, with fill-in fields. Paste into your project's custom instructions. |
 | `README.md` | This file. |
 
 ## Quick start
 
 1. Create a new AI project (Claude Projects works today).
-2. Open `CLAUDE_PROJECT_INSTRUCTIONS.md`, fill in every `[bracket]` about your student, and paste it into the project's **Custom Instructions**.
+2. Open `AI_INSTRUCTIONS.md`, fill in every `[bracket]` about your student, and paste it into the project's **Custom Instructions**.
 3. Read `PARENT_INSTRUCTIONS.md` once.
 4. Ask for your first lesson.
 
