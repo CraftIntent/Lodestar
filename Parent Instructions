@@ -1,0 +1,52 @@
+# Lodestar — Parent Guide
+
+A short guide for the adult. Set it up once, then it's a simple loop.
+
+Lodestar runs inside an AI assistant's project or custom-instructions space. Claude Projects is the current reference platform and works today; any assistant that lets you save standing instructions and hold an ongoing conversation will do.
+
+## One-time setup (about 5 minutes)
+
+1. Create a new project with your AI assistant (for example, a Claude Project).
+2. Open **`AI_INSTRUCTIONS.md`**. Fill in every **[bracket]** about your student and delete the brackets.
+3. Paste that whole filled-in document into the project's **custom instructions** (its standing-instructions field).
+4. That's the setup. Update that file only when something about your student changes — a new subject, a move, a new interest.
+
+## Getting a lesson
+
+Ask in plain words:
+
+- "A lesson on bees."
+- "Teach fractions using the pizza we're making tonight."
+- "Something about the moon — connect it to last week's stars lesson."
+
+You'll get a lesson written for *you to teach from* — a script and plan, not a video to park your child in front of. You read it, you explain it, you do the activity and ask the questions. The teaching is yours; Lodestar just hands you a strong starting point.
+
+## After the lesson (about 30 seconds)
+
+Tell Lodestar how it went, in your own words:
+
+- "She explained it back to me without help and remembered the ants from last week."
+- "He needed hints the whole way and lost interest at the activity."
+
+Lodestar updates the skill list and shows you a fresh copy. **Save that copy** — a note, a doc, or re-upload it to the project. Paste it back the next time you ask about progress.
+
+## How "mastered" works here
+
+You're not counting lessons — you're watching whether skills *stick.* The one rule to know: something counts as **mastered only when your student uses it again in a later lesson,** not the day they learned it. That's why lessons keep pointing back to earlier ones. Real learning survives a gap.
+
+## Checking progress (every week or two)
+
+Paste your saved skill list and ask:
+
+- "How are we doing across subjects — where are we strongest and weakest?"
+- "What are we missing? Flag anything we taught but never came back to, and anything I said we'd cover and didn't — then suggest the next few lessons."
+
+Ask for bluntness. The point is to catch the gaps you'd miss on your own.
+
+## The one thing to remember
+
+**AI is the tool. You are the teacher. Your child is the point.** Lodestar is a tool, not a passive replacement for you — it drafts lessons and keeps the record, but you have to do the work to teach. You deliver the lesson, you read your child, you decide what was truly learned. That work is the whole thing; nothing here is built to let you skip it. The system is meant to work itself out of a job — the day your child can direct their own learning is the day it succeeded.
+
+## That's the whole system
+
+Request a lesson → read it aloud → say how it went → save the skill list. Check progress now and then. Lodestar handles the rest.
