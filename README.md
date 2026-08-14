@@ -6,7 +6,7 @@
 
 ---
 
-Lodestar turns any AI project folder into a mastery-based homeschool tutor. A parent fills in one profile; Lodestar generates screen-free, Socratic lessons the parent delivers aloud, tracks each skill by evidence rather than by calendar, and flags gaps and forgotten material before they compound. Every lesson answers to a Student's Bill of Rights. The teacher stays in the loop; mastery stays at the gate.
+Lodestar turns any AI project folder into a mastery-based homeschool tutor. A parent fills in one profile; Lodestar generates lessons the parent delivers aloud, tracks each skill by evidence rather than by calendar, and flags gaps and forgotten material before they compound. Every lesson answers to a Student's Bill of Rights. The teacher stays in the loop; mastery stays at the gate.
 
 It runs today inside a Claude Project — no code, no accounts, no cost beyond an AI subscription. A standalone native app is on the roadmap.
 
